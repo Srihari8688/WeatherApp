@@ -1,5 +1,6 @@
 Overview:
 A weather application that allows users to search for a city's weather conditions in real time. It fetches data from the OpenWeather API and presents the temperature, weather description, and additional details in a visually appealing format.
+
 Features:
 Search Functionality: Users can enter a city name to fetch real-time weather updates.
 Weather Details: Displays temperature, weather description, wind speed, and humidity.
