@@ -1,12 +1,15 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Overview:
+A weather application that allows users to search for a city's weather conditions in real time. It fetches data from the OpenWeather API and presents the temperature, weather description, and additional details in a visually appealing format.
+Features:
+Search Functionality: Users can enter a city name to fetch real-time weather updates.
+Weather Details: Displays temperature, weather description, wind speed, and humidity.
+API Integration: Fetches live weather data from OpenWeather API using Axios.
+Loading & Error Handling: Shows a loading indicator while fetching data and handles errors gracefully.
+Responsive UI: Built with TailwindCSS for a modern and responsive design.
+Dark Mode Support: Configured using TailwindCSS's dark mode feature.
+Tech Stack:
+React.js – Component-based UI development.
+Vite – Fast and optimized build tool.
+TailwindCSS – Utility-first CSS framework for styling.
+Axios – API fetching for seamless data retrieval.
+OpenWeather API – Provides real-time weather data.
