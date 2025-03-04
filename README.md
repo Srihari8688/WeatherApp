@@ -8,6 +8,7 @@ API Integration: Fetches live weather data from OpenWeather API using Axios.
 Loading & Error Handling: Shows a loading indicator while fetching data and handles errors gracefully.
 Responsive UI: Built with TailwindCSS for a modern and responsive design.
 Dark Mode Support: Configured using TailwindCSS's dark mode feature.
+
 Tech Stack:
 React.js – Component-based UI development.
 Vite – Fast and optimized build tool.
